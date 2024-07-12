@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#F5C332" />
+    <link
+      rel="shortcut icon"
+      href="./img/superkey-logo-ico.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/plugins/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Rocket Program by Superkey Consulting Group</title>
+  </head>
+
+  <body>
+    <!-- app wrapper -->
+    <div class="sb-app">
+      <!-- top bar -->
+      <div class="sb-top-bar-frame">
+        <div class="sb-top-bar-bg"></div>
+        <div class="container">
+          <div class="sb-top-bar">
+            <a href="index.html" class="sb-logo-frame">
+              <!-- logo img -->
+              <img src="img/superkey-logo.webp" alt="superkey-logo" />
+            </a>
+            <!-- menu -->
+            <div class="sb-right-side">
+              <nav id="sb-dynamic-menu" class="sb-menu-transition">
+                <ul class="sb-navigation">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.html">Program</a></li>
+                  <li><a href="index.html">About Us</a></li>
+                  <li><a href="index.html">Contact Us</a></li>
+                </ul>
+              </nav>
+              <div class="sb-buttons-frame"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- top bar end -->
+
+      <!-- dynamic content -->
+      <div id="sb-dynamic-content" class="sb-transition-fade">
+        <!-- banner -->
+        <section class="sb-banner sb-banner-color">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-7">
+                <!-- main title -->
+                <div class="sb-main-title-frame">
+                  <div class="sb-main-title">
+                    <span class="sb-suptitle sb-mb-30">Contact</span>
+                    <h1 class="sb-mb-30">Get in Touch with Rocket Program</h1>
+                    <p class="sb-text sb-text-lg sb-mb-30">
+                      We are always ready to help you! Don't hesitate to contact
+                      us <br />
+                      if you have any questions or need further information.
+                    </p>
+                    <ul class="sb-breadcrumbs">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- main title end -->
+              </div>
+              <div class="col-lg-5">
+                <div class="sb-contact-form-frame">
+                  <div class="sb-illustration-9">
+                    <div class="sb-cirkle-1"></div>
+                    <div class="sb-cirkle-2"></div>
+                    <div class="sb-cirkle-3"></div>
+                  </div>
+                  <div class="sb-form-content">
+                    <div class="sb-main-content">
+                      <h3 class="sb-mb-30">Send Message</h3>
+                      <form id="form">
+                        <div class="sb-group-input">
+                          <input type="text" name="name" required />
+                          <span class="sb-bar"></span>
+                          <label>Name</label>
+                        </div>
+                        <div class="sb-group-input">
+                          <input type="email" name="email" required />
+                          <span class="sb-bar"></span>
+                          <label>Email</label>
+                        </div>
+                        <div class="sb-group-input">
+                          <textarea name="text" required></textarea>
+                          <span class="sb-bar"></span>
+                          <label>Message</label>
+                        </div>
+                        <p class="sb-text sb-text-xs sb-mb-30">
+                          *We promise not to disclose your <br />personal
+                          information to third parties.
+                        </p>
+                        <!-- button -->
+                        <button
+                          type="button"
+                          class="sb-btn sb-cf-submit sb-show-success"
+                          onclick="submitForm()"
+                        >
+                          <span class="sb-icon">
+                            <img src="img/arrow.svg" alt="icon" />
+                          </span>
+                          <span>Send</span>
+                        </button>
+                        <!-- button end -->
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- banner end -->
+
+        <!-- contact info -->
+        <section class="sb-p-90-30">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="sb-features-item sb-mb-60">
+                  <div class="sb-number">01</div>
+                  <div class="sb-feature-text">
+                    <h3 class="sb-mb-15">Welcome</h3>
+                    <p class="sb-text">Jln. Akses UI, Kota Depok</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="sb-features-item sb-mb-60">
+                  <div class="sb-number">02</div>
+                  <div class="sb-feature-text">
+                    <h3 class="sb-mb-15">Call</h3>
+                    <p class="sb-text">+62 822 4026 9818</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="sb-features-item sb-mb-60">
+                  <div class="sb-number">03</div>
+                  <div class="sb-feature-text">
+                    <h3 class="sb-mb-15">Write</h3>
+                    <p class="sb-text">hudaya.azra@mail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- contact info end -->
+
+        <!-- footer -->
+        <!-- footer -->
+        <footer>
+          <div class="container">
+            <div class="sb-footer-frame">
+              <a href="index.html" class="sb-logo-frame">
+                <!-- logo img -->
+                <img src="img/superkey-logo.webp" alt="superkey" />
+              </a>
+              <ul class="sb-social">
+                <li>
+                  <a href="#."><i class="far fa-circle"></i></a>
+                </li>
+                <li>
+                  <a href="#."><i class="far fa-circle"></i></a>
+                </li>
+                <li>
+                  <a href="#."><i class="far fa-circle"></i></a>
+                </li>
+                <li>
+                  <a href="#."><i class="far fa-circle"></i></a>
+                </li>
+              </ul>
+              <div class="sb-copy">
+                &copy; 2024 Superkey Consulting Group. All Rights Reserved.
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- footer end -->
+      </div>
+      <!-- dynamic content end -->
+    </div>
+    <!-- app wrapper end -->
+
+    <!-- smooth scroll js -->
+    <script src="js/plugins/smooth-scroll.js"></script>
+    <script>
+      function submitForm() {
+        var form = document.getElementById("form");
+        var data = {
+          name: form.name.value,
+          email: form.email.value,
+          text: form.text.value,
+        };
+
+        fetch(
+          "https://script.google.com/macros/s/AKfycbzVtbC36cXwmw_ZPW6o-BidsQK2fM8k1HHv6Cdr2rXVWBoL8LcX4NbNm9-vrQ5RMnTf/exec",
+          {
+            method: "POST",
+            body: JSON.stringify(data),
+          }
+        )
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.result === "success") {
+              alert("Data submitted successfully");
+              form.reset();
+            } else {
+              alert("There was an error submitting your data");
+            }
+          })
+          .catch((error) => {
+            alert("Error: " + error);
+          });
+      }
+    </script>
+  </body>
+</html>
